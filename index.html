@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Snake - Modern Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="game-container">
+        <h1>🐍 NEON SNAKE 🐍</h1>
+        <canvas id="gameCanvas"></canvas>
+        
+        <div class="controls">
+            <div class="controls-section">
+                <h3>🎮 Controls</h3>
+                <p><strong>Move:</strong> Arrow Keys or WASD</p>
+                <p><strong>Restart:</strong> R (when game over)</p>
+            </div>
+            <div class="controls-section">
+                <h3>🎯 Power-ups</h3>
+                <p><strong>🛡️ Shield:</strong> Protects from one collision</p>
+                <p><strong>🧲 Magnet:</strong> Attracts nearby food</p>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <h4>🍎 Food Types</h4>
+            <div class="legend-item">
+                <span class="color-box" style="background: #00ff00;"></span>
+                Normal (+10)
+            </div>
+            <div class="legend-item">
+                <span class="color-box" style="background: #ffd700;"></span>
+                Golden (+25)
+            </div>
+            <div class="legend-item">
+                <span class="color-box" style="background: #ff6600;"></span>
+                Speed (+15, Faster)
+            </div>
+            <div class="legend-item">
+                <span class="color-box" style="background: #ff0000;"></span>
+                Obstacles (Avoid!)
+            </div>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature">✨ Neon Visual Effects</div>
+            <div class="feature">🎯 Multiple Food Types</div>
+            <div class="feature">🛡️ Shield & Magnet Power-ups</div>
+            <div class="feature">🧱 Dynamic Obstacles</div>
+            <div class="feature">💫 Particle Explosions</div>
+            <div class="feature">📊 High Score Tracking</div>
+            <div class="feature">⚡ Progressive Speed</div>
+            <div class="feature">🌟 Animated Background</div>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
